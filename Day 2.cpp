@@ -1,4 +1,3 @@
-
 //POWER SUM
 #include <iostream>
 using namespace std;
