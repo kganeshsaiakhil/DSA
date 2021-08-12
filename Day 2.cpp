@@ -1,3 +1,22 @@
+//SUM OF N TERMS
+#include<iostream>
+using namespace std;
+int sumofnatural (int num)
+{
+    int sum=0;
+    for(int i=1;i<=num;i++)
+    {
+        sum=sum+i;
+    }
+    return sum;
+}
+int main()
+{
+    int num;
+    cin>>num;
+    cout<<"sum of 1 to "<<num <<"is"<<sumofnatural(num)<<endl;
+}
+
 //POWER SUM
 #include <iostream>
 using namespace std;
@@ -27,25 +46,9 @@ int main()
     return 0;
 }
 
-//SUM OF N TERMS
-#include<iostream>
-using namespace std;
-int sum(int n)
-{
-    if(n==0){
-        return 0;
-    }
-    int prevsum= sum(n-1);
-    return n + prevsum;
-}
-int main()
-{
-    int n;
-    cin>>n;
-    cout<<sum(n);
-}
 
-//FIBONACCI SERIES
+
+//FIBONACCI SERIES (1st METHOD)
 #include <iostream>
 using namespace std;
 int fibonacci(int n)
@@ -65,6 +68,23 @@ int main()
     cin>>n;
     cout<<fibonacci(n)<<endl;
     return 0;
+}
+
+// FIBONACCI SERIES (2nd METHOD)
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"enter the number fiboncii series";
+    cin>>num;
+    for(i=0;i<num;i++)
+    {
+        cout<<a;
+        c=a+b;
+        a=b;
+        b=c;
+    }
 }
 
 //BINOMIAL EXPANSION
