@@ -1,4 +1,4 @@
-//SUM OF N TERMS
+//SUM OF N  TERMS
 #include<iostream>
 using namespace std;
 int sumofnatural (int num)
