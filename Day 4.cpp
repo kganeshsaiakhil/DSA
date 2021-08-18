@@ -150,4 +150,5 @@ int main()
     cin>>key;
 
     cout<<binary_search(a,n,key)<<endl;
+    
 }
