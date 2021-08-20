@@ -101,7 +101,7 @@ class Array
       {
           return array[index];
       }
-      int addatend(int element)
+      bool addatend(int element)
       {
           if(filled<size)
           {
