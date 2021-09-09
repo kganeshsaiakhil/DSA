@@ -37,6 +37,7 @@ int main()
 #include<iostream>
 #include<algorithm>
 #include<string>
+using namespace std;
 int main()
 {
     string str[]={"Grandfather","Grandmother","Father","Mother","Boy","Girl"};
@@ -46,7 +47,7 @@ int main()
         cout<<a<<" ";
     }
     cout<<endl;
-    sort(str,str+n)
+    sort(str,str+n);
     for(auto a:str)
     {
         cout<<a<<" ";
