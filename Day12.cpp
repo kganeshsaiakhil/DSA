@@ -53,4 +53,5 @@ int main()
         cout<<a<<" ";
     }
     cout<<endl;
+    
 }
